@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output (regenerate with `npm run build`)
+chaincode/dist/
+bel-ui/backend/dist/
+bel-ui/frontend/dist/
+
+# Machine-specific / secrets
+bel-ui/identities.json
+bel-ui/backend/uploads/
+*.log
+.DS_Store
+**/.DS_Store
+
+# Env files that may hold local overrides
+.env
+.env.local
+
+# OS/editor cruft
+Thumbs.db
+
+# Zip-extraction artifacts
+__MACOSX/
+bel-portal/
+
+Claude outputs/

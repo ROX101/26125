@@ -1,0 +1,21 @@
+{
+  "name": "bel-identity-rbac-chaincode",
+  "version": "0.1.0",
+  "description": "BEL SIH26125 - DID Registry and RBAC Engine chaincode",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "fabric-chaincode-node start"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "fabric-contract-api": "^2.5.4",
+    "fabric-shim": "^2.5.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.11.0"
+  }
+}

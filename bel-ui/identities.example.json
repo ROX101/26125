@@ -1,0 +1,42 @@
+{
+  "ADMIN": {
+    "did": "did:fabric:REPLACE_WITH_YOUR_GENESIS_DID",
+    "orgUnit": "Corporate Office",
+    "orgScope": "*",
+    "mspId": "Org1MSP",
+    "certPath": "/home/you/bel-fabric/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/cert.pem",
+    "keyPath": "/home/you/bel-fabric/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/priv_sk"
+  },
+  "MANAGER": {
+    "did": "did:fabric:...",
+    "orgUnit": "Bangalore Complex",
+    "orgScope": "Bangalore Complex",
+    "mspId": "Org1MSP",
+    "certPath": "/home/you/bel-fabric/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/manager-demo@org1.example.com/msp/signcerts/cert.pem",
+    "keyPath": "/home/you/bel-fabric/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/manager-demo@org1.example.com/msp/keystore/priv_sk"
+  },
+  "AUDITOR": {
+    "did": "did:fabric:...",
+    "orgUnit": "Corporate Office",
+    "orgScope": "Corporate Office",
+    "mspId": "Org1MSP",
+    "certPath": "/home/you/bel-fabric/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/auditor-demo@org1.example.com/msp/signcerts/cert.pem",
+    "keyPath": "/home/you/bel-fabric/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/auditor-demo@org1.example.com/msp/keystore/priv_sk"
+  },
+  "USER": {
+    "did": "did:fabric:...",
+    "orgUnit": "Ghaziabad",
+    "orgScope": "Ghaziabad",
+    "mspId": "Org1MSP",
+    "certPath": "/home/you/bel-fabric/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/user-demo@org1.example.com/msp/signcerts/cert.pem",
+    "keyPath": "/home/you/bel-fabric/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/user-demo@org1.example.com/msp/keystore/priv_sk"
+  },
+  "network": {
+    "peerEndpoint": "localhost:7051",
+    "peerHostAlias": "peer0.org1.example.com",
+    "tlsCertPath": "/home/you/bel-fabric/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt",
+    "mspId": "Org1MSP",
+    "channelName": "belchannel",
+    "chaincodeName": "belid"
+  }
+}
